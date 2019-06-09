@@ -1,0 +1,26 @@
+{
+  "name": "intermediate-react-frontendmasters",
+  "version": "1.0.0",
+  "description": "From Brian Holt's Frontend Masters course",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier \"src/**/*.{js,html}\" --write",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthewDodi/intermediate-react-frontendMasters.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatthewDodi/intermediate-react-frontendMasters/issues"
+  },
+  "homepage": "https://github.com/MatthewDodi/intermediate-react-frontendMasters#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.3.0",
+    "prettier": "^1.18.2"
+  }
+}
