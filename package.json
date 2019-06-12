@@ -20,6 +20,11 @@
   },
   "homepage": "https://github.com/MatthewDodi/intermediate-react-frontendMasters#readme",
   "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel": "^6.23.0",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-config-prettier": "^4.3.0",

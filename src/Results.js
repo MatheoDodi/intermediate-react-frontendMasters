@@ -9,6 +9,7 @@ export default function Results({ pets }) {
       ) : (
         pets.map(pet => (
           <Pet
+            id={pet.id}
             animal={pet.type}
             key={pet.id}
             name={pet.name}
