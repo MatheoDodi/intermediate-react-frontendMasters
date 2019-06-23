@@ -24,6 +24,9 @@
     "@babel/plugin-proposal-class-properties": "^7.4.4",
     "@babel/preset-env": "^7.4.5",
     "@babel/preset-react": "^7.0.0",
+    "@types/reach__router": "^1.2.4",
+    "@types/react": "^16.8.22",
+    "@types/react-dom": "^16.8.4",
     "babel": "^6.23.0",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
@@ -33,7 +36,8 @@
     "eslint-plugin-react": "^7.13.0",
     "eslint-plugin-react-hooks": "^1.6.0",
     "parcel-bundler": "^1.12.3",
-    "prettier": "^1.18.2"
+    "prettier": "^1.18.2",
+    "typescript": "^3.5.2"
   },
   "dependencies": {
     "@emotion/babel-preset-css-prop": "^10.0.9",

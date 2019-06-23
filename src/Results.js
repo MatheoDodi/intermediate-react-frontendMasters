@@ -1,5 +1,5 @@
-import React from "react";
-import Pet from "./Pet";
+import React from 'react';
+import Pet from './Pet.tsx';
 
 export default function Results({ pets }) {
   return (

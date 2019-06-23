@@ -1,6 +1,6 @@
 import React from 'react';
 import pet from '@frontendmasters/pet';
-import Carousel from './Carousel';
+import Carousel from './Carousel.tsx';
 import ErrorBoundary from './ErrorBoundary';
 import ThemeContext from './ThemeContext';
 

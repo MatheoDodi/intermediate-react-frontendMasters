@@ -1,14 +1,30 @@
-import React from "react";
-import { Link } from "@reach/router";
+import React, { FunctionComponent } from 'react';
+import { Link } from '@reach/router';
 
-export default function Pet({ name, animal, breed, media, location, id }) {
+interface IPetProps {
+  name: string;
+  animal: string;
+  breed: string;
+  media: Array<any>;
+  location: string;
+  id: number;
+}
+
+export default function({
+  name,
+  animal,
+  breed,
+  media,
+  location,
+  id
+}: IPetProps) {
   // return React.createElement("div", {}, [
   //   React.createElement("h1", {}, name),
   //   React.createElement("h2", {}, animal),
   //   React.createElement("h2", {}, breed)
   // ]);
 
-  let hero = "http://placecorgi.com/300/300";
+  let hero = 'http://placecorgi.com/300/300';
 
   if (media.length) {
     hero = media[0].small;
